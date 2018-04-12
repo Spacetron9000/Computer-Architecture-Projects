@@ -1,0 +1,15 @@
+//Kyle M. Medeiros and Jacob Stevens
+//Lab 9
+//Modified 7/31/2017
+//
+//This file is supposed to initialize data memory to specified addresses
+//according to the table_copy.asm file. 
+//
+//memory_data
+10010000_10010020
+10010004_10010040
+10010008_00000005
+10010020_04030201
+10010024_08070605
+10010028_0C0B0A09
+X

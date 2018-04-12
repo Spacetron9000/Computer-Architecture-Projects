@@ -1,0 +1,549 @@
+WARNING: mips_tb.v:38: $readmemh(datamem_mips_tb.txt): Not enough words in the file for the requested range [0:1023].
+VCD info: dumpfile mips.vcd opened for output.
+WARNING: mips_tb.v:54: $readmemh(table_copy.txt): Not enough words in the file for the requested range [0:1023].
+Tick 0 PC:00400000 Inst:3c081001 Next:00400004
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 ffffffff
+    R 9: t1 ffffffff
+    R10: t2 ffffffff
+    R11: t3 ffffffff
+    R12: t4 ffffffff
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 1 PC:00400004 Inst:8d090000 Next:00400008
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 ffffffff
+    R10: t2 ffffffff
+    R11: t3 ffffffff
+    R12: t4 ffffffff
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 2 PC:00400008 Inst:8d0a0004 Next:0040000c
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010020
+    R10: t2 ffffffff
+    R11: t3 ffffffff
+    R12: t4 ffffffff
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 3 PC:0040000c Inst:910b0008 Next:00400010
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010020
+    R10: t2 10010040
+    R11: t3 ffffffff
+    R12: t4 ffffffff
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 4 PC:00400010 Inst:11600006 Next:00400014
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010020
+    R10: t2 10010040
+    R11: t3 00000005
+    R12: t4 ffffffff
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 5 PC:00400014 Inst:812c0000 Next:00400018
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010020
+    R10: t2 10010040
+    R11: t3 00000005
+    R12: t4 ffffffff
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 6 PC:00400018 Inst:a14c0000 Next:0040001c
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010020
+    R10: t2 10010040
+    R11: t3 00000005
+    R12: t4 00000001
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 7 PC:0040001c Inst:25290001 Next:00400020
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010020
+    R10: t2 10010040
+    R11: t3 00000005
+    R12: t4 00000001
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 8 PC:00400020 Inst:254a0001 Next:00400024
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010021
+    R10: t2 10010040
+    R11: t3 00000005
+    R12: t4 00000001
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 9 PC:00400024 Inst:216bffff Next:00400028
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010021
+    R10: t2 10010041
+    R11: t3 00000005
+    R12: t4 00000001
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 10 PC:00400028 Inst:1000fff9 Next:00400010
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010021
+    R10: t2 10010041
+    R11: t3 00000004
+    R12: t4 00000001
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 11 PC:00400010 Inst:11600006 Next:00400014
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010021
+    R10: t2 10010041
+    R11: t3 00000004
+    R12: t4 00000001
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 12 PC:00400014 Inst:812c0000 Next:00400018
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010021
+    R10: t2 10010041
+    R11: t3 00000004
+    R12: t4 00000001
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 13 PC:00400018 Inst:a14c0000 Next:0040001c
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010021
+    R10: t2 10010041
+    R11: t3 00000004
+    R12: t4 00000002
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 14 PC:0040001c Inst:25290001 Next:00400020
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010021
+    R10: t2 10010041
+    R11: t3 00000004
+    R12: t4 00000002
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 15 PC:00400020 Inst:254a0001 Next:00400024
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010022
+    R10: t2 10010041
+    R11: t3 00000004
+    R12: t4 00000002
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 16 PC:00400024 Inst:216bffff Next:00400028
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010022
+    R10: t2 10010042
+    R11: t3 00000004
+    R12: t4 00000002
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 17 PC:00400028 Inst:1000fff9 Next:00400010
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010022
+    R10: t2 10010042
+    R11: t3 00000003
+    R12: t4 00000002
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 18 PC:00400010 Inst:11600006 Next:00400014
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010022
+    R10: t2 10010042
+    R11: t3 00000003
+    R12: t4 00000002
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 19 PC:00400014 Inst:812c0000 Next:00400018
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010022
+    R10: t2 10010042
+    R11: t3 00000003
+    R12: t4 00000002
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 20 PC:00400018 Inst:a14c0000 Next:0040001c
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010022
+    R10: t2 10010042
+    R11: t3 00000003
+    R12: t4 00000003
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 21 PC:0040001c Inst:25290001 Next:00400020
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010022
+    R10: t2 10010042
+    R11: t3 00000003
+    R12: t4 00000003
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 22 PC:00400020 Inst:254a0001 Next:00400024
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010023
+    R10: t2 10010042
+    R11: t3 00000003
+    R12: t4 00000003
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 23 PC:00400024 Inst:216bffff Next:00400028
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010023
+    R10: t2 10010043
+    R11: t3 00000003
+    R12: t4 00000003
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 24 PC:00400028 Inst:1000fff9 Next:00400010
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010023
+    R10: t2 10010043
+    R11: t3 00000002
+    R12: t4 00000003
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 25 PC:00400010 Inst:11600006 Next:00400014
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010023
+    R10: t2 10010043
+    R11: t3 00000002
+    R12: t4 00000003
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 26 PC:00400014 Inst:812c0000 Next:00400018
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010023
+    R10: t2 10010043
+    R11: t3 00000002
+    R12: t4 00000003
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 27 PC:00400018 Inst:a14c0000 Next:0040001c
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010023
+    R10: t2 10010043
+    R11: t3 00000002
+    R12: t4 00000004
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 28 PC:0040001c Inst:25290001 Next:00400020
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010023
+    R10: t2 10010043
+    R11: t3 00000002
+    R12: t4 00000004
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 29 PC:00400020 Inst:254a0001 Next:00400024
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010024
+    R10: t2 10010043
+    R11: t3 00000002
+    R12: t4 00000004
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 30 PC:00400024 Inst:216bffff Next:00400028
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010024
+    R10: t2 10010044
+    R11: t3 00000002
+    R12: t4 00000004
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 31 PC:00400028 Inst:1000fff9 Next:00400010
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010024
+    R10: t2 10010044
+    R11: t3 00000001
+    R12: t4 00000004
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 32 PC:00400010 Inst:11600006 Next:00400014
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010024
+    R10: t2 10010044
+    R11: t3 00000001
+    R12: t4 00000004
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 33 PC:00400014 Inst:812c0000 Next:00400018
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010024
+    R10: t2 10010044
+    R11: t3 00000001
+    R12: t4 00000004
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 34 PC:00400018 Inst:a14c0000 Next:0040001c
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010024
+    R10: t2 10010044
+    R11: t3 00000001
+    R12: t4 00000005
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 35 PC:0040001c Inst:25290001 Next:00400020
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010024
+    R10: t2 10010044
+    R11: t3 00000001
+    R12: t4 00000005
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 36 PC:00400020 Inst:254a0001 Next:00400024
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010025
+    R10: t2 10010044
+    R11: t3 00000001
+    R12: t4 00000005
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 37 PC:00400024 Inst:216bffff Next:00400028
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010025
+    R10: t2 10010045
+    R11: t3 00000001
+    R12: t4 00000005
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 38 PC:00400028 Inst:1000fff9 Next:00400010
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010025
+    R10: t2 10010045
+    R11: t3 00000000
+    R12: t4 00000005
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 39 PC:00400010 Inst:11600006 Next:0040002c
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010025
+    R10: t2 10010045
+    R11: t3 00000000
+    R12: t4 00000005
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 40 PC:0040002c Inst:00000000 Next:00400030
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010025
+    R10: t2 10010045
+    R11: t3 00000000
+    R12: t4 00000005
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
+Tick 41 PC:00400030 Inst:ffffffff Next:00400034
+Address  | Value+0|  Value+4|  Value+8|  Value+c|
+10010000: 10010020, 10010040, 00000005 xxxxxxxx
+10010020: 04030201, 08070605, 0c0b0a09 xxxxxxxx
+10010040: xxxxxxxx, xxxxxxxx, xxxxxxxx xxxxxxxx
+    R 8: t0 10010000
+    R 9: t1 10010025
+    R10: t2 10010045
+    R11: t3 00000000
+    R12: t4 00000005
+    R13: t5 ffffffff
+    R14: t6 ffffffff
+    R15: t7 ffffffff
