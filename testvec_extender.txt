@@ -1,0 +1,6 @@
+//Sign/Byte(on one digit)_D_Output
+0_C1B1_0000C1B1
+1_9973_00000073
+2_C1B1_FFFFC1B1
+3_A1D3_FFFFFFD3
+X
